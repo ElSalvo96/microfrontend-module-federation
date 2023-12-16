@@ -3,21 +3,12 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Development](#development)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- [Prerequisites](#prerequisites)
+- [Run local server](#run-local-server)
 
 ## Introduction
 
 This monorepo app is designed to demonstrate the concept of microfrontend architecture using Module Federation. It allows you to build and manage multiple frontend modules as independent microfrontends within a single repository.
-
-## Getting Started
 
 ### Prerequisites
 
@@ -26,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 - Node.js and npm installed on your system.
 - Knowledge of JavaScript, React, Node.js, and TypeScript.
 
-### Installation
+### Run local server
 
 1. Clone the repository:
 
@@ -51,3 +42,5 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    npm run start
    ```
+   
+5. Open a web page to http://localhost:3000/
