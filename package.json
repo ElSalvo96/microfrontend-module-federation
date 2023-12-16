@@ -1,0 +1,17 @@
+{
+	"name": "microfrontend-module-federation",
+	"version": "1.0.0",
+	"description": "Study on microfrontend with module federation",
+	"workspaces": [
+		"apps/*"
+	],
+	"scripts": {
+		"start": "turbo start",
+		"build": "turbo build"
+	},
+	"author": "ElSalvo96",
+	"license": "MIT",
+	"devDependencies": {
+		"turbo": "^1.11.2"
+	}
+}
